@@ -3,7 +3,7 @@ English | [简体中文](README_cn.md)
 
 ### Project Background：
 This study aims to restore the longitudinal information of images based on the unique imaging method of enface images on the basis of a single CC layer OCTA enface image, and construct a 3D topographic map that can clearly display the morphology of CC vessels. To verify the effectiveness of the 3D reconstruction algorithm, this plugin was developed. This study also designed the [OCTA_Volumer_Viewer](https://github.com/chw1127/OCTA_Volume_Builder) plugin for real-time display of reconstruction results during the 3D reconstruction process.
-### 插件介绍：
+### Plugin Introduction:
 This project is a custom-developed image processing plugin in ImageJ. It is used in conjunction with another self-developed plugin [OCTA_Volumer_Viewer](https://github.com/chw1127/OCTA_Volume_Builder)
 
 which can realize the 3D visual reconstruction of a single OCTA image and display it in the OCTA_Volumer_Viewer, with the following effects:
@@ -17,7 +17,7 @@ which can realize the 3D visual reconstruction of a single OCTA image and displa
 1.Prerequisite: Ensure that Fiji (ImajeJ distribution) has been successfully installed. Download link:[https://imagej.net/software/fiji/](https://imagej.net/software/fiji/)
 
 2.Download the two jar packages of this plugin:
-[OCTA_3D_ReBuild_plugin-0.1.0.jar](./deploy/OCTA_3D_ReBuild_plugin-0.1.0.jar) 和 [OCTA_Volume_Viewer_plugin_2.01.5.jar](./deploy/OCTA_Volume_Viewer_plugin_2.01.5.jar)
+[OCTA_3D_ReBuild_plugin-0.1.0.jar](./deploy/OCTA_3D_ReBuild_plugin-0.1.0.jar) and [OCTA_Volume_Viewer_plugin_2.01.5.jar](./deploy/OCTA_Volume_Viewer_plugin_2.01.5.jar)
 
 3.Copy these two jar packages to the plugins folder in the installation directory of Fiji (ImajeJ distribution).
 For example, your local installation directory might be:
