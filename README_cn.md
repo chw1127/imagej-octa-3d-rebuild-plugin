@@ -2,16 +2,14 @@
 [English](README.md) | 简体中文
 
 ### 项目背景：
-本研究拟在单张CC层 OCTA enface图像的基础上，基于enface图像特有的成像方式，通过二维转三维方法还原图像纵向信息，构建可以清晰展示CC血管形态的3D地形图。为验证3D重建算法的有效性，开发了本插件，本研究还设计了[OCTA_Volumer_Viewer](https://github.com/PaddlePaddle/Paddle)插件，用于在3D重建过程中，实时显示重建结果。
+本研究拟在单张CC层 OCTA enface图像的基础上，基于enface图像特有的成像方式，通过二维转三维方法还原图像纵向信息，构建可以清晰展示CC血管形态的3D地形图。为验证3D重建算法的有效性，开发了本插件，本研究还设计了[OCTA_Volumer_Viewer](https://github.com/chw1127/OCTA_Volume_Builder)插件，用于在3D重建过程中，实时显示重建结果。
 
 ### 插件介绍：
-本项目是在ImageJ中定制开发的图像处理插件。 与另外一款自己开发插件[OCTA_Volumer_Viewer](https://github.com/PaddlePaddle/Paddle)一起使用，
+本项目是在ImageJ中定制开发的图像处理插件。 与另外一款自己开发插件[OCTA_Volumer_Viewer](https://github.com/chw1127/OCTA_Volume_Builder)一起使用，
 可以实现对单张OCTA图像进行3D视觉重建，并显示在OCTA_Volumer_Viewer中，效果如下：
 <p align="center"><img width="100%" src="./images/1.jpg"/></p>
 
-### 基本原理：
-本算的基本原理为，利用单张OCTA的灰度图，经过XXXXX、XXXXX等步骤，得到3D重建的图像，并显示在3D_Viewer中。
-算法原理示意图：
+### 原理示意图：
 <p align="center"><img width="100%" src="./images/2.jpg"/></p>
 
 
